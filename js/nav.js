@@ -16,7 +16,7 @@ const createNav = () => {
                         <button class="btn" id="user-btn">Cerrar sesíon</button>
                     </div>
                 </a>
-                <a href="/cart"><img src="img/cart.png" alt=""></a>
+                <a href="../cart.html"><img src="img/cart.png" alt=""></a>
             </div>
         </div>
         <ul class="links-container">
@@ -31,7 +31,7 @@ const createNav = () => {
 
 createNav();
 
-// nav popup
+//  popup
 const userImageButton = document.querySelector('#user-img');
 const userPopup = document.querySelector('.login-logout-popup');
 const popuptext = document.querySelector('.account-info');
@@ -60,3 +60,13 @@ window.onload = () => {
         })
     }
 }
+
+// buscador
+
+const searchBtn = document.querySelector('.search-btn');
+const searchBox = document.querySelector('.search-box');
+searchBtn.addEventListener('click', () => {
+    if(searchBox.value.length){
+        location.href = `../search/${searchBox.value}`
+    }
+})

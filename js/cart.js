@@ -1,4 +1,4 @@
-// create small product cards
+// crear pequeñas tarjetas de productos
 const createSmallCards = (data) => {
     return `
     <div class="sm-product">
@@ -44,7 +44,7 @@ const updateBill = () => {
 }
 
 const setupEvents = (name) => {
-    // setup counter event
+    // configurar el evento del contador
     const counterMinus = document.querySelectorAll(`.${name} .decrement`);
     const counterPlus = document.querySelectorAll(`.${name} .increment`);
     const counts = document.querySelectorAll(`.${name} .item-count`);

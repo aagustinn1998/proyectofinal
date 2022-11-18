@@ -14,5 +14,13 @@
     "nodemon": "^2.0.20"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aagustinn1998/proyectofinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aagustinn1998/proyectofinal/issues"
+  },
+  "homepage": "https://github.com/aagustinn1998/proyectofinal#readme",
   "description": ""
 }
